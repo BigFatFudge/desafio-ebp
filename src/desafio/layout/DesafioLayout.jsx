@@ -2,7 +2,7 @@
 import { Box } from '@mui/material'
 import React from 'react'
 import { NavBar } from '../components/NavBar'
-import { HomeData } from './HomeData';
+import { HomeData } from '../../auth/pages/HomeData';
 
 const drawerWidth = 240;
 
@@ -21,7 +21,7 @@ export const DesafioLayout = ({children}) => {
             {/* Toolbar */}
 
             {children}
-
+            <HomeData />
 
            {/* <HomeData /> */}
 
